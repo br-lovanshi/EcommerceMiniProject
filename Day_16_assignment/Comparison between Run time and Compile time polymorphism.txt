@@ -1,0 +1,68 @@
+polymorphism :-The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+
+there are two type of polymorphism :- 
+
+1. Compile Time Polymorphism:
+1. At compile-time, java knows which method to call by checking the method signatures. 
+2. this is called compile-time polymorphism or static or early binding. Compile-time polymorphism is achieved through method overloading. 
+3.Method Overloading says you can have more than one function with the same name in one class having a different prototype. 
+
+4. Inheritance is not involved. 
+
+ public static int add(int a, int b)
+    {
+        return a + b;
+    }
+ 
+    // Second addition function
+    public static double add(
+        double a, double b)
+    {
+        return a + b;
+    }
+
+
+public static void main(String args[])
+    {
+        System.out.println(add(2, 3));
+ 
+        System.out.println(add(2.0, 3.0));
+    }
+
+
+2.Run-Time Polymorphism: 
+1. Whenever an object is bound with the functionality at run time, this is known as runtime polymorphism. 
+2.The runtime polymorphism can be achieved by method overriding.
+3.It is also called dynamic or late binding.
+4.Inheritance is involved.
+
+class Test {
+ 
+    // Implementing a method
+    public void method()
+    {
+        System.out.println("Method 1");
+    }
+}
+
+
+public class Demo extends Test {
+ 
+    // Overriding the parent method
+    public void method()
+    {
+        System.out.println("Method 2");
+    }
+ 
+ 
+    public static void main(String args[])
+    {
+        Test test = new GFG();
+ 
+        test.method();
+    }
+}
+
+
+
+

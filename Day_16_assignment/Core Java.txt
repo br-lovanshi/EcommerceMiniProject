@@ -1,0 +1,32 @@
+1. What are features of java ? 
+
+Java is oops inherit,capt,poly,abstract ?
+platfomr indepen
+
+2. What is inheritance ?
+
+3. why string are immutiable.
+
+4. what is the final keyword in java?
+5.What is transient keyword in java ?
+6.what is serialization and derialization ?
+7.what is the method of serialization and de?
+8.what is jdk,jvm,jre?
+9.why java is not 100% oop language?
+10.access modifire ?
+11.what is enum ? what is the length of enum?
+what is the runable interface and thread class
+Syncronization,Serialization.
+
+some basic theory questions
+3:02
+get,post,put
+3:02
+acid property in db
+3:02
+https
+3:03
+cap theorem
+Indexing in Databases,
+acid properties,
+adv. and disadv of java (https://data-flair.training/blogs/pros-and-cons-of-java/)

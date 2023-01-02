@@ -1,0 +1,51 @@
+Abstraction:- 
+==========
+
+Abstraction is the process in which we hide the implementation of the method and show the functionality.
+in another word, we show only important parts to the user and hide internal things from the user.
+
+
+Abstract class:- 
+=============
+
+An abstract class is one that uses abstract keywords. The abstract class has abstract and non-abstract methods.
+
+In abstract class, we need to use abstract keywords and with the help of this class we can achieve abstraction.
+
+Exp:- 
+
+Abstract   Hello {
+
+
+public abstract hey();
+
+
+}
+
+
+Interface:-
+===========
+
+The interface is the blueprint of a class. The interface has static and abstract methods java 8 onwards have default methods as well.
+
+There are 3 uses of the Interface:-
+===========================
+
+1. We can achieve 100% abstraction.
+2. We can achieve loose coupling.
+3. Multiple inheritance functionality suport by inteface.
+
+
+
+ Interface Hello {
+
+public int sum(a,b);
+
+}
+
+
+
+
+
+
+

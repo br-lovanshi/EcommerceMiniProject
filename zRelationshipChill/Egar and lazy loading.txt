@@ -1,0 +1,8 @@
+what is eager and lazy loading in orm JPA
+In the Java Persistence API (JPA), eager loading and lazy loading are techniques used by object-relational mapping (ORM) frameworks to improve performance when loading data from a database.
+
+Eager loading is when an ORM loads all of the data that it will need in a single query. This can improve performance if the data is needed all at once because it reduces the number of round trips to the database that are required. However, it can also be less efficient if only a small amount of the data is actually needed, because it will load more data than is necessary.
+
+Lazy loading, on the other hand, is when an ORM loads data from the database only when it is needed. This can improve performance if only a small amount of the data is needed, because it avoids loading unnecessary data. However, it can be less efficient if all of the data is needed because it requires multiple round trips to the database to load the data.
+
+ORM frameworks that implement the JPA specification, such as Hibernate, typically allow you to choose between eager and lazy loading when you configure how data is loaded from the database. The choice of which technique to use will depend on your specific needs and how you are using the data in your application.
